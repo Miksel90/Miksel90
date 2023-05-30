@@ -87,10 +87,6 @@
     margin-left: 40px;
   }
 
-  .sub-title{
-    font-size: 32px;
-  }
-  
   .hamburger {
     display: none;
   }
@@ -122,6 +118,10 @@
     align-items: center;
   }
 
+  /*==============
+   Index
+  ================*/
+
 .index-background{
     height: 1000px;
     background-image: url(../images/background-2.jpg);
@@ -129,23 +129,93 @@
     background-size: cover;
     background-position: center;
     display: flex;
+    position: relative;
 }
  
-.index-container{
+.index-container {
     background-color: #ffffff;
     border-radius: 5px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 50px;
-    margin-top: 300px;
-
+    width: 340px;
+    position: absolute;
+    top: 300px;
+    left:40px;
+    flex-direction: column;
+    min-height: 220px;
 } 
 
-.top-text{
+.top-text {
    font-size: 22px;
    padding: 10px;
+   text-align: left;
 }
+
+
+  /*==============
+   Project
+  ================*/
+
+
+  .project-background{
+    background-image: url(../images/background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: auto;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    height: 550px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .card-name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .card-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #000000;
+    margin-top: 20px;
+  }
+  
+  
+.some-container-about{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-self: center;
+    gap: 5px;
+  }
+  
+  .some-container-about a{
+    font-size: 18px;
+  }
+
+  /*==============
+   Media queries
+  ================*/
+
 
 
   @media screen and (max-width: 756px) {
