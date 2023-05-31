@@ -130,6 +130,7 @@
     background-position: center;
     display: flex;
     position: relative;
+    width: 100%;
 }
  
 .index-container {
@@ -148,6 +149,7 @@
    font-size: 22px;
    padding: 10px;
    text-align: left;
+   margin: 0 auto;
 }
 
 
@@ -213,14 +215,25 @@
   ================*/
 
   .contact-background{
-    background-image: url(../images/pixel-art.jpg);
+    background-image: url(../images/pixel2.jpg);
   }
 
   /*==============
    Media queries
   ================*/
+  @media screen and (max-width: 400px) {
 
 
+  .top-text {
+    font-size: 14px;
+    padding: 5px
+  }
+  .index-container {
+  min-height: 100px;
+  max-width: 100%;
+  left: 0px;
+}
+  }
 
   @media screen and (max-width: 756px) {
     .nav-right {
