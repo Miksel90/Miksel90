@@ -1,4 +1,5 @@
-### 👋 Hello there, I am Mikael Selstad 👋 
+### 👋 Hello there, I am Mikael Selstad 👋
+:mailbox:How to reach me:
 <div id="badges">
   <a href="https://www.linkedin.com/in/mikael-selstad-921251279">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
@@ -12,7 +13,12 @@
 
 ## About Me
 
-- :telescope: I am a Front End developer student from Norway
+:telescope: I am a Front End developer student located in Oslo, Norway
+
+:seedling: Exploring Technical Content Writing.
+
+:zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
+
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
