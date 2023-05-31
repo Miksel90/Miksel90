@@ -8,13 +8,16 @@
   </a>
 </div>
 
-![read-me](https://github.com/Miksel90/Miksel90/assets/114400071/555a6efb-a098-4699-98fe-388dfd86157c)
+<p align="center">
+  <img src="https://github.com/Miksel90/Miksel90/assets/114400071/555a6efb-a098-4699-98fe-388dfd86157c" alt="Alt text">
+</p>
+<!-- ![read-me](https://github.com/Miksel90/Miksel90/assets/114400071/555a6efb-a098-4699-98fe-388dfd86157c) -->
 
 ## About Me
 
 :telescope: I am a Front End developer student located in Oslo, Norway
 
-- 🌱 I’m currently studying front End Development at Noroff School. I have a degree in teaching and have been working as a teacher for 8 years but quit to pursuit a career in coding and UX design. 
+🌱 I’m currently studying front End Development at Noroff School. I have a degree in teaching and have been working as a teacher for 8 years but quit to pursuit a career in programing and UX design. 
 
 :zap: In my free time, I enjoy going to the gym, make food, read books and play video games. 
 
