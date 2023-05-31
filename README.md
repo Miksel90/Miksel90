@@ -1,4 +1,4 @@
-### 👋 Hello there, I am Mikael Selstad 👋
+### Hello there, I am Mikael Selstad 👋😊💻
 
 
 <img src="images/read-me.jpg">
