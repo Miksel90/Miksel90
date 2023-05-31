@@ -13,11 +13,9 @@
 
 ## About me
 
-🔭 I am a Front End Developer (student) & teacher located in Nesoddtangen. Norway. Currently studying at Noroff.
+🔭 I am a Front End Developer (student) & teacher located in Nesoddtangen. Norway.
 
-🌱 I’m currently learning ...
-
-📫 How to reach me: ...
+🌱 I’m currently studying Front End development at Noroff.
 
 ## Languages 
 
@@ -29,6 +27,6 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
 
-### :fire: My Stats :
+### :fire: My Stats
 
 
