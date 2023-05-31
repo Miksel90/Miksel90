@@ -158,11 +158,6 @@
 
   .project-background{
     background-image: url(../images/background-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    height: auto;
 }
 
 .project-container {
@@ -210,6 +205,15 @@
   
   .some-container-about a{
     font-size: 18px;
+  }
+
+
+    /*==============
+   contact
+  ================*/
+
+  .contact-background{
+    background-image: url(../images/pixel-art.jpg);
   }
 
   /*==============
