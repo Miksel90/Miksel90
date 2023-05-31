@@ -12,7 +12,7 @@
 
 ## About Me
 
-I am a Front End developer student from Norway
+- :telescope: I am a Front End developer student from Norway
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
