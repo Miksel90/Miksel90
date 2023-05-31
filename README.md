@@ -10,7 +10,7 @@
 🌱 I decided to leave my job as a teacher after 8 years to pursue a new path in life. Currently studying Front End development at Noroff and I have just finished year 1. 
 I started studying in August 2022.
 
-😊 Outside coding I like to play video games, lift heavy weights and cooking from scracth!
+😊 Outside coding I like to play video games, lift heavy weights, collect Pokemon cards and cooking from scracth!
 
 ## Languages 
 
