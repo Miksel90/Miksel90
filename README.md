@@ -8,7 +8,9 @@
   </a>
 </div>
 
-<!--![read-me](https://github.com/Miksel90/Miksel90/assets/114400071/798b5397-698d-4ee9-911a-17da0f2d8377)
+<div>
+  <img src="images/"
+</div>
 
 
 **Miksel90/Miksel90** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
