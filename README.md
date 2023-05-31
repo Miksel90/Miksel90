@@ -1,4 +1,5 @@
 ### 👋 Hello there, I am Mikael Selstad 👋
+
 <div id="badges">
   <a href="https://www.linkedin.com/in/mikael-selstad-921251279/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
@@ -8,14 +9,7 @@
   </a>
 </div>
 
-<div>
-  <img src="images/"
-</div>
-
-<<<<<<< HEAD
 <img src="images/read-me.jpg">
-=======
->>>>>>> 23abad57736453325569b83873864bf280ad5664
 
 **Miksel90/Miksel90** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -29,4 +23,4 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+  -->
