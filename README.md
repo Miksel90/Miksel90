@@ -1,6 +1,6 @@
 ### 👋 Hello there, I am Mikael Selstad 👋
 
-<img src="">
+<img src="images/read-me.jpg">
 
 <!--
 **Miksel90/Miksel90** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
