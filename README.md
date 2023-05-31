@@ -1,8 +1,15 @@
 ### 👋 Hello there, I am Mikael Selstad 👋
+<div id="badges">
+  <a href="https://www.linkedin.com/in/mikael-selstad-921251279/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://twitter.com/SelenEven">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</div>
 
-<img src="">
+<!--![read-me](https://github.com/Miksel90/Miksel90/assets/114400071/798b5397-698d-4ee9-911a-17da0f2d8377)
 
-<!--
 **Miksel90/Miksel90** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
