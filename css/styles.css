@@ -176,24 +176,31 @@
   .card {
     background-color: #ffffff;
     height: 550px;
-    width: 300px;
+    width: 400px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
+    gap: 5px;
   }
   
   .card-name {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 30px;
+    font-weight: bolder;
   }
   
+.card-name a{
+  gap:10px;
+}
+
   .card-image {
     height: 250px;
     width: 250px;
-    border-radius: 50%;
+    border-radius: 5px;
+    padding: 10px;
     border: 5px solid #000000;
     margin-top: 20px;
   }
@@ -209,6 +216,12 @@
   
   .some-container-about a{
     font-size: 18px;
+    gap: 10px;
+    display: flex;
+  }
+
+  .project-text{
+    margin-top: 20px;
   }
 
 
@@ -254,6 +267,16 @@
     text-decoration: underline;
   }
 
+
+  .some-container-about a{
+  font-size: 22px;
+  }
+
+
+  .some-container-about a:hover{
+  font-weight: bolder;
+  }
+
   .fa-chrome, .fa-envelope{
     color: #000000;
   }
@@ -285,7 +308,13 @@
    Media queries
   ================*/
   @media screen and (max-width: 400px) {
-
+    .card{
+      width: 250px;
+      padding: 10px;
+    }
+    .project-text{
+      font-size: 22px;
+    }
 
   .top-text {
     font-size: 14px;
@@ -299,6 +328,7 @@
   }
 
   @media screen and (max-width: 756px) {
+
     .nav-right {
       display: none;
     }
@@ -345,4 +375,10 @@
       right: -100px; 
       background-color: #ffffff;
     }
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    margin-top: 20px;
+  }
 }
