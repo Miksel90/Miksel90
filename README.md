@@ -13,9 +13,12 @@
 
 ## About me
 
-🔭 I am a Front End Developer (student) & teacher located in Nesoddtangen. Norway.
+🔭 I am a Front End Developer (student) & former teacher located in Nesoddtangen, outside Oslo, Norway.
 
-🌱 I’m currently studying Front End development at Noroff.
+🌱 I decided to leave my job as a teacher after 8 years to pursue a new path in life. Currently studying Front End development at Noroff and I have just finished year 1. 
+I started studying in August 2022.
+
+😊 Outside coding I like to play video games, lift heavy weights and cooking from scracth!
 
 ## Languages 
 
@@ -25,6 +28,25 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
+</div>
+
+## Contributing
+Most of my repos are school projects, and it would be awesome if you would open a pull request if you want to play around with it.
+
+
+<i>Follow me around the web:</i><br>
+
+  <!-- <a target="_blank" href="">🇱​🇮​🇳​🇰​🇪​🇩​🇮​🇳​</a> ●
+  <a target="_blank" href="">🇮​🇳​🇸​🇹​🇦​🇬​🇷​🇦​🇲​</a> ●
+  <a target="_blank" href="">🇫​🇦​🇨​🇪​🇧​🇴​🇴​🇰​</a> ●
+  <a target="_blank" href="">🇸​🇵​🇴​🇹​🇮​🇫​🇾​</a>
+
+<a href="https://www.linkedin.com/in/absphreak" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://www.instagram.com/absphreak" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
+<a href="https://www.facebook.com/originalphreak" target="_blank"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?&style=flat-square&logo=facebook&logoColor=white" alt="Facebook"></a>
+<a href="https://open.spotify.com/user/0170agi99s5hh187g7mtz245b" target="_blank"><img src="https://img.shields.io/badge/Spotify-%231ED760.svg?&style=flat-square&logo=spotify&logoColor=white" alt="Spotify"></a>
+<a href="https://dev.to/ABSphreak" target="_blank"><img src="https://img.shields.io/badge/DEV-%230A0A0A.svg?&style=flat-square&logo=DEV.to&logoColor=white" alt="DEV.to"></a>
+
 </div>
 
 <!-- ### :fire: My Stats -->
