@@ -108,7 +108,8 @@
   }
   
   .menu a{
-    margin-right: 20px; 
+    margin-right: 20px;
+    gap: 10px; 
   }
   
   .nav-right {
@@ -334,8 +335,9 @@
       flex-direction: column;
       text-align:left;
       align-items: flex-end;
-      /* width: 40%; */
+      gap: 5px;
       padding-top: 20px;
+      padding-bottom: 10px;
       position: absolute;
       top: 60px;
       right: -100px; 
