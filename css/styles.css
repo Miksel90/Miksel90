@@ -160,11 +160,13 @@
 
   .project-background{
     background-image: url(../images/background-1.jpg);
+    background-attachment: fixed;
+    background-position: top;
 }
 
 .project-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-flow: wrap;
     margin: 0 auto;
