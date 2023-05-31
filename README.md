@@ -10,6 +10,9 @@
 
 ![read-me](https://github.com/Miksel90/Miksel90/assets/114400071/555a6efb-a098-4699-98fe-388dfd86157c)
 
+## About Me
+
+I am a Front End developer student from Norway
 
 
 <!--
