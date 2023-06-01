@@ -44,8 +44,7 @@
 
   
   body {
-    /* font-family: "Quicksand"; */
-    font-family: "Typo Draft";
+    font-family: "Quicksand";
     font-weight: 400;
     font-size: 25px;
     color: black;
@@ -92,7 +91,7 @@
     text-decoration: none;
     font-size: 48px;
     margin-left: 40px;
-    /* font-family: "Typo Draft"; */
+    font-family: "Typo Draft";
   }
 
   .hamburger {
