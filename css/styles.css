@@ -110,7 +110,6 @@
   }
   
   .menu a:hover{
-    transform: scale(1.2);
     transition: 0.9s;
     text-decoration: underline;
   }
@@ -226,6 +225,7 @@
     font-size: 18px;
     gap: 10px;
     display: flex;
+    padding: 10px;
   }
 
   .project-text{
