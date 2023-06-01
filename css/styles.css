@@ -9,6 +9,13 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: "Typo Draft";
+    src: url("../fonts/Typo\ Draft\ Demo.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
   
   
   *{
@@ -84,6 +91,7 @@
     text-decoration: none;
     font-size: 48px;
     margin-left: 40px;
+    font-family: "Typo Draft";
   }
 
   .hamburger {
