@@ -26,7 +26,7 @@ I started studying in August 2022.
 Most of my repos are school projects, and it would be awesome if you would open a pull request if you want to play around with it.
 
 
-<i>Follow me around the web:</i><br>
+## Follow me around the web
 <a href="https://www.linkedin.com/in/mikael-selstad-921251279/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://www.instagram.com/mikabjrk/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
 <a href="https://www.facebook.com/mikael.selstad" target="_blank"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?&style=flat-square&logo=facebook&logoColor=white" alt="Facebook"></a>
