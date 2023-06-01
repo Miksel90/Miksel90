@@ -225,7 +225,6 @@
     font-size: 18px;
     gap: 10px;
     display: flex;
-    padding: 10px;
   }
 
   .project-text{
@@ -259,20 +258,22 @@
     max-width: 100%;
   }
 
-    /*==============
-   Icons
-  ================*/
-  
+ 
   .some-container-contact a{
     color:#000000;
     align-self: flex-start;
     font-size: 40px;
     max-width: 100%;
+    padding: 10px;
   }
 
   .some-container-contact a:hover{
     text-decoration: underline;
   }
+
+    /*==============
+   Icons
+  ================*/
 
 
   .some-container-about a{
