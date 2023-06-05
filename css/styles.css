@@ -149,7 +149,7 @@
     top: 300px;
     left:40px;
     flex-direction: column;
-    min-height: 220px;
+    min-height: 250px;
 } 
 
 .languages{
@@ -256,6 +256,7 @@
   display: flex;
   letter-spacing: 3px;
   margin-right: 30px;
+  background-color: none;
 }
 
     /*==============
@@ -268,7 +269,6 @@
     align-items: center;
     background-image: url(../images/pixel-art.jpg);
   }
-
 
   .some-container-contact{
     display: flex;
