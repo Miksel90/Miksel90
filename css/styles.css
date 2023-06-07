@@ -221,7 +221,7 @@
 
 .card-image {
   height: 250px;
-  width: 250px;
+  width: 350px;
   border-radius: 5px;
   padding: 5px;
   border: 5px solid #000000;
@@ -363,6 +363,9 @@
   }
   .footer{
     font-size: 12px;
+  }
+  .card-image{
+    width: 250px;
   }
   }
 
