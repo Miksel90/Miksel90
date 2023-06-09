@@ -153,11 +153,23 @@
 } 
 
 .languages{
-  font-size: 50px;
+  font-size: 16px;
   display: flex;  
   justify-content: space-evenly;
   align-items: center;
   padding: 10px;
+}
+
+.icons{
+  flex-direction: column-reverse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#icon{
+font-size: 50px;
 }
 
 .top-text {
