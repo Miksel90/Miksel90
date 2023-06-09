@@ -378,6 +378,7 @@ font-size: 50px;
   .card-image{
     width: 250px;
   }
+  
   }
 
   @media screen and (max-width: 550px) {
@@ -387,7 +388,7 @@ font-size: 50px;
       left: 0px;
     }
     .languages{
-      font-size: 30px;
+      font-size: 12px;
       padding: 5px;
     }
     .card{
