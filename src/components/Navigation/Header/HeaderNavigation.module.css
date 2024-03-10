@@ -1,0 +1,31 @@
+.headerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  color: #fff;
+}
+
+.headerList {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--spacing-2);
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .headerNav,
+  .headerList {
+    width: auto;
+  }
+  .headerList {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .headerList {
+    flex-direction: column-reverse;
+  }
+}
