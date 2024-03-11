@@ -8,14 +8,12 @@ function HomePage() {
       <Helmet>
         <title>Home | MIkael Selstad</title>
       </Helmet>
-      <Hero>
-        <div className={styles.heroContent}>
+      <div className={styles.overlay}>
+        <div className={styles.heroText}>
           <h1>Welcome to my Portfolio</h1>
         </div>
-      </Hero>
-      <section className={styles.productSection}>
-        <h2 className={styles.homeHeader}>Products</h2>
-      </section>
+        <Hero></Hero>
+      </div>
     </main>
   );
 }

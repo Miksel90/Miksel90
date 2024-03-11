@@ -1,21 +1,25 @@
 import { Link } from "react-router-dom";
-import styles from "./FooterNavigation.module.css";
+import Nav from "react-bootstrap/Nav";
 
 const FooterNavigation = () => {
   return (
-    <nav className={styles.footerNav}>
-      <ul className={styles.footerList}>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/projects">Projects</Link>
-        </li>
-      </ul>
-    </nav>
+    <>
+      <Nav
+        className="justify-content-center"
+        activeKey="/home"
+        style={{ fontSize: "22px", Color: "primary" }}
+      >
+        <Nav.Link as={Link} to="/" style={{ color: "#000" }}>
+          Home
+        </Nav.Link>
+        <Nav.Link as={Link} to="/about" style={{ color: "#000" }}>
+          About Me
+        </Nav.Link>
+        <Nav.Link as={Link} to="/projects" style={{ color: "#000" }}>
+          Projects
+        </Nav.Link>
+      </Nav>
+    </>
   );
 };
 

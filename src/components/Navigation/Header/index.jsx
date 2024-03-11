@@ -18,17 +18,21 @@ const HeaderNavigation = ({ brandName }) => {
         >
           {brandName}
         </Navbar.Brand>
-
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav className="justify-content-end" style={{ fontSize: "20px" }}>
-            <Nav.Link as={Link} to="/home">
+          <Nav
+            className="justify-content-end"
+            variant="underline"
+            defaultActiveKey="/home"
+            style={{ fontSize: "20px" }}
+          >
+            <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/About Me">
+            <Nav.Link as={Link} to="/about">
               About Me
             </Nav.Link>
-            <Nav.Link as={Link} to="/Projects">
+            <Nav.Link as={Link} to="/projects">
               Projects
             </Nav.Link>
           </Nav>
