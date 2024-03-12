@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const HeaderNavigation = ({ brandName }) => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary p-1">
       <Container>
         <Navbar.Brand
           as={Link}
