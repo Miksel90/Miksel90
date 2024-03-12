@@ -30,10 +30,10 @@ const HeaderNavigation = ({ brandName }) => {
               Home
             </Nav.Link>
             <Nav.Link as={Link} to="/about">
-              About Me
+              About
             </Nav.Link>
             <Nav.Link as={Link} to="/projects">
-              Projects
+              Skills
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

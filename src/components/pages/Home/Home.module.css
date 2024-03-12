@@ -1,20 +1,22 @@
-.overlay {
-  position: relative;
-}
-
 .heroText {
-  position: absolute;
-  z-index: 99;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-  text-shadow: 1px 1px 1px #000000;
+  color: transparent;
+  -webkit-text-stroke: 2px #000000;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px #fff;
 }
 
-@media screen and (max-width: 700px) {
+.heroName {
+  color: #fff;
+  font-size: 100px;
+  text-shadow: 2px 5px 5px #000000;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+  .heroName {
+    font-size: 50px;
+  }
   .heroText {
-    font-size: 12px;
+    font-size: 30px;
   }
 }

@@ -11,7 +11,7 @@ const Header = () => {
         width: "100%",
       }}
     >
-      <HeaderNavigation brandName="Mikael Selstad" />
+      <HeaderNavigation brandName="ME-Selstad" />
     </header>
   );
 };

@@ -1,11 +1,15 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
+import Backdrop from "../Backdrop";
 
 const Layout = () => (
-  <div>
+  <div className="page">
     <Header />
-    <Outlet />
+    <div className="content" style={{ position: "relative", zIndex: 3 }}>
+      <Outlet />
+    </div>
+    <Backdrop />
     <Footer />
   </div>
 );
