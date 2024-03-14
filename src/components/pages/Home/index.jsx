@@ -1,6 +1,5 @@
 import profileImage from "../../images/Profile/profileImage.jpg";
 import Image from "react-bootstrap/Image";
-// import { Link } from "react-router-dom";
 import PopoverContact from "../../Popover/index.jsx";
 import styles from "./Home.module.css";
 import { Helmet } from "react-helmet";
@@ -38,26 +37,13 @@ function HomePage() {
               <span className="d-block">
                 I am playful, calm and{" "}
                 <span className="text-black bg-white rounded p-1">
-                  Eager To Learn
+                  Eager To Learn.
                 </span>
               </span>
             </p>
           </div>
           <div className="container d-flex justify-content-start p-5">
             <PopoverContact />
-            {/* <Link
-              to="/contact"
-              className="btn btn-light fs-3 z-depth-2"
-              role="button"
-              style={{
-                color: "black",
-                fontWeight: "bold",
-                backgroundColor: "yellow",
-                borderColor: "yellow",
-              }}
-            >
-              Contact Me
-            </Link> */}
           </div>
         </div>
       </div>
