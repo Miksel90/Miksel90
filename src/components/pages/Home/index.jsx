@@ -1,4 +1,4 @@
-import profileImage from "../../images/profilbilde.jpg";
+import profileImage from "../../images/Profile/profileImage.jpg";
 import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";

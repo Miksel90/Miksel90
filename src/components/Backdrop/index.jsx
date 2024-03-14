@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import homeImage from "../images/background-2.jpg";
-import aboutImage from "../images/background-1.jpg";
-import projectsImage from "../images/background-3.jpg";
+import homeImage from "../images/Backgrounds/background-2.jpg";
+import aboutImage from "../images/Backgrounds/background-1.jpg";
+import projectsImage from "../images/Backgrounds/background-3.jpg";
 import styles from "./Backdrop.module.css";
 
 function Backdrop() {

@@ -9,3 +9,17 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border: none;
+}
+
+.nav-link:hover {
+  color: #000;
+  border: none;
+}
