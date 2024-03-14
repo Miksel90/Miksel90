@@ -38,7 +38,7 @@ function ThisIsMeTab() {
             My name is Mikael and I am (and I can not really grasp it) now 34
             years old. I live in Nesodden, were I also grew up, which a small
             island outside of Oslo, or its actually a peninsula if we want to be
-            technical. Some citizens of Oslo, refer to us as the "ferry people".
+            technical. Some citizens of Oslo, refer to us as the ferry people.
             The scenic commute to Oslo is amazing, and I love it.
             <FcLike className="mb-2" />
           </p>

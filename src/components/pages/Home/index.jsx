@@ -1,6 +1,7 @@
 import profileImage from "../../images/Profile/profileImage.jpg";
 import Image from "react-bootstrap/Image";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import PopoverContact from "../../Popover/index.jsx";
 import styles from "./Home.module.css";
 import { Helmet } from "react-helmet";
 
@@ -42,8 +43,9 @@ function HomePage() {
               </span>
             </p>
           </div>
-          <div className="container d-flex justify-content-end p-5">
-            <Link
+          <div className="container d-flex justify-content-start p-5">
+            <PopoverContact />
+            {/* <Link
               to="/contact"
               className="btn btn-light fs-3 z-depth-2"
               role="button"
@@ -55,7 +57,7 @@ function HomePage() {
               }}
             >
               Contact Me
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
