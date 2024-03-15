@@ -10,8 +10,8 @@ function HomePage() {
       <Helmet>
         <title>Home | Mikael Selstad</title>
       </Helmet>
-      <div className="container p-5">
-        <h1 className="p-5">
+      <div className="container p-5 ">
+        <h1 className="p-1">
           <span className={`${styles.heroText}`}>Hello, I am </span>
           <span className={`${styles.heroName} p-1`}>Mikael Selstad</span>
           <span className={`${styles.heroText} d-block p-2`}>
@@ -19,7 +19,7 @@ function HomePage() {
           </span>
         </h1>
         <div className="row ">
-          <div className="col-md-12 mb-4 d-flex align-items-center flex-wrap">
+          <div className="col-md-12 mb-1 d-flex align-items-center justify-content-center flex-wrap">
             <div className="d-flex align-items-center justify-content-center ">
               <Image
                 src={profileImage}
@@ -42,8 +42,13 @@ function HomePage() {
               </span>
             </p>
           </div>
-          <div className="container d-flex justify-content-start p-5">
-            <PopoverContact />
+          <div
+            className="container d-flex justify-content-center justify-content-lg-start p-1 mb-1 "
+            style={{ height: "420px" }}
+          >
+            <div className={styles.popoverBox}>
+              <PopoverContact />
+            </div>
           </div>
         </div>
       </div>

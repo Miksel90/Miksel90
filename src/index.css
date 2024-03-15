@@ -4,10 +4,12 @@
   font-weight: 400;
 }
 
-body {
+body,
+html {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  height: 100%;
 }
 
 .nav-link {
@@ -22,4 +24,31 @@ body {
 .nav-link:hover {
   color: #000;
   border: none;
+}
+
+.popover {
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  padding: 10px;
+}
+
+.popover.ul {
+  padding-left: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0; /* Start with elements invisible */
 }

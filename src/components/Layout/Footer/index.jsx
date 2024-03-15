@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer
       className="text-lg-start bg-white d-flex justify-content-around"
-      style={{ zIndex: 1 }}
+      style={{ zIndex: 1, bottom: 0, width: "100%" }}
     >
       <div className="row align-items-center">
         <div className="col-12">

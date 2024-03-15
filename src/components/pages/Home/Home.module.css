@@ -12,11 +12,21 @@
   text-decoration: underline;
 }
 
+.popoverBox {
+  margin-top: 120px;
+}
+
 @media screen and (max-width: 500px) {
   .heroName {
     font-size: 50px;
   }
   .heroText {
     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .popoverBox {
+    margin-top: 2px;
   }
 }
