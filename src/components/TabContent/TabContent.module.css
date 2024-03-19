@@ -1,6 +1,6 @@
 .fadeInVisible {
   animation-name: fadeIn;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
   opacity: 1;
 }
@@ -10,6 +10,14 @@
   margin: 0 !important;
   padding: 0 !important;
   margin-top: 0.25rem !important;
+}
+
+.tabImage {
+  background-size: cover;
+  max-height: 400px;
+  max-width: 100%;
+  border: 1px solid #000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 @keyframes fadeIn {

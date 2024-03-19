@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Popover from "react-bootstrap/Popover";
-import { FcTwoSmartphones, FcAddressBook, FcPhone } from "react-icons/fc";
+import { FcTwoSmartphones, FcAddressBook } from "react-icons/fc";
+import { FaGithub } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
 
 function PopoverContact() {
@@ -48,12 +49,18 @@ function PopoverContact() {
                 </li>
                 <li className="mb-1">
                   <strong>
-                    <FcPhone
+                    <FaGithub
                       style={{ fontSize: "30px", marginBottom: "10px" }}
                     />
-                    Phone:{" "}
+                    Github:{" "}
                   </strong>
-                  <p>+47 99 57 88 98</p>
+                  <a
+                    href="https://github.com/Miksel90"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Miksel90
+                  </a>
                 </li>
                 <li className="mb-1">
                   <strong>
