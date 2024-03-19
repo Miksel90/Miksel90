@@ -1,5 +1,4 @@
 import imageOne from "../images/Profile/profile-3.webp";
-import imageTwo from "../images/Profile/profile-5.webp";
 import imageThree from "../images/Profile/profile-1.webp";
 import { Image } from "react-bootstrap";
 import styles from "./TabContent.module.css";
