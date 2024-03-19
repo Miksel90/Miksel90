@@ -4,7 +4,7 @@ function SkillList() {
   return (
     <ListGroup
       horizontal
-      className="fs-3 d-flex flex-wrap justify-content-center"
+      className="fs-5 d-flex flex-wrap justify-content-center"
     >
       <ListGroup.Item>Netlify</ListGroup.Item>
       <ListGroup.Item>GitHub</ListGroup.Item>

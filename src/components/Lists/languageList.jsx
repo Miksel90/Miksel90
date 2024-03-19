@@ -4,7 +4,7 @@ function LanguageList() {
   return (
     <ListGroup
       horizontal
-      className="fs-3 d-flex flex-wrap justify-content-center"
+      className="fs-5 d-flex flex-wrap justify-content-center"
     >
       <ListGroup.Item>HTML</ListGroup.Item>
       <ListGroup.Item>CSS/SASS</ListGroup.Item>

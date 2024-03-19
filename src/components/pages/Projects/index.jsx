@@ -24,6 +24,7 @@ function ProjectsPage() {
           <SkillList />
         </Row>
         <Row className="gap-3 d-flex justify-content-evenly">
+          <p className="shadowText text-white fs-1 fw-bold p-1">Projects</p>
           <BogeysCard />
           <FuturumCard />
           <RainyDaysCard />
