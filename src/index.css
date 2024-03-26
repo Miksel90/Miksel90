@@ -36,3 +36,7 @@ html {
 .popover.ul {
   padding-left: 0;
 }
+
+.list-group-item {
+  border-radius: 8px;
+}

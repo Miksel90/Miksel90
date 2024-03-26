@@ -60,25 +60,25 @@ function PassionsTab() {
         <div className="col-md-9 ">
           <p ref={refFour} className={styles.fadeIn}>
             I am a total geek, and have gotten a bunch of hobbies through the
-            years. One of my biggest passions is Football, and mainly Arsenal. I
-            have supported them in thick and thin since 2001. I try to watch
-            every game, and try to go to London at least every year. Im not
+            years. One of my biggest passions is Football, and mainly Arsenal
+            FC. I have supported them in thick and thin since 2001. I try to
+            watch every game, and try to go to London at once a year. Im not
             proud of how the results affect my mood.
           </p>
           <p ref={refFive} className={`${styles.fadeIn} mt-4`}>
-            I am also a huge fan of doing activities outside, and I above
+            I am also a huge fan of doing activities outside, and I am above
             average fond of competitions. I enjoy playing golf, skiing, swimming
-            in the ocean, and playing handball. I also enjoy lifitng weights and
+            in the ocean, and playing handball. I also enjoy lifting weights and
             try to do it at least 4-5 times a week. My current goal is to
             deadlift 250kg. Cooking is a huge part of my life, and I make almost
             everything from scratch. I try to buy local, and authentic
             ingredients while considering animal welfare and the environment.
           </p>
           <p ref={refSix} className={`${styles.fadeIn} mt-4`}>
-            I also play a video games, and have been doing that since I was
-            young. I have played games such as World of Warcraft, Call of Duty
-            and Fifa. I also enjoy playing board games, card games and social
-            games over the internet.
+            I also play video games, and have been doing that since I was young.
+            I have played games such as World of Warcraft, Call of Duty and
+            Fifa. I also enjoy playing board games, card games and social games
+            over the internet.
           </p>
         </div>
         <div className="col-md-3  ">
@@ -101,14 +101,13 @@ function PassionsTab() {
         </div>
         <div className="col-md-9 mt-1">
           <p ref={refSeven} className={styles.fadeIn}>
-            I also collect trading cards, and mostly Pokèmon cards. I used to
-            play the game when I was young and picked the hobby up again during
-            covid while i was trying to sell my childhood collection. I hope I
-            am able to travel to Japan so I can visit the Pokèmon center and buy
-            some exclusive cards. I also watch anime, and my favorite is One
-            Piece. I am watching the series, and also reading the Manga. Movies
-            and tv-series something I enjoy, and I try to go to the theater as
-            often as possible.
+            I also collect trading cards, mostly Pokèmon cards. I used to play
+            the game when I was young and picked the hobby up again during
+            covid. I hope I am able to travel to Japan so I can visit the
+            Pokèmon center and buy some exclusive cards. I also watch anime, and
+            my favorite is One Piece. I am watching the series and reading the
+            Manga. Movies and tv-series something I enjoy, and I try to go to
+            the theater as often as possible.
           </p>
           <p ref={refEight} className={`${styles.fadeIn} mt-5`}>
             I love hearing the phrase, I did not take you for a person who was

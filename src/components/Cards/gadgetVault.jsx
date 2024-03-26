@@ -3,9 +3,9 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Button from "react-bootstrap/Button";
 import { FaGithub, FaChrome } from "react-icons/fa";
-import imageOne from "../images/Projects/Bogeys.webp";
+import imageOne from "../images/Projects/gadgetvault.webp";
 
-function BogeysCard() {
+function GadgetVaultCard() {
   const [showList, setShowList] = useState(false);
 
   const toggleList = () => {
@@ -19,7 +19,7 @@ function BogeysCard() {
     >
       <Card.Img variant="top" style={{ height: "145px" }} src={imageOne} />
       <Card.Body>
-        <Card.Title className="fs-1 mb-3">Bogeys & Bunkers</Card.Title>
+        <Card.Title className="fs-1 mb-3">GadgetVault</Card.Title>
         <Button
           className=" btn-lg bg-white border border-dark text-black m-auto"
           onClick={toggleList}
@@ -29,16 +29,11 @@ function BogeysCard() {
         {showList && (
           <>
             <Card.Text className="text-start mt-3 fs-5">
-              This was our end of year one exam. We had a ton of freedom but we
-              were not allowed to use and frameworks or libaries. Everything is
-              built with HTML/CSS/JS. The task was to build a blogsite were the
-              content was dynamically built after fetching data from Wordpress.
-            </Card.Text>
-            <Card.Text className="text-start fs-5">
-              The index page had to include a working image carousel which
-              showcased the latest posts. All specific blog pages had to be
-              dynamically built and all images on the pages had to modal
-              functionality.
+              This was ,y first react project at Noroff. The task was to build a
+              E-com shop using the noroff E-commerce API.The site has a
+              lookahead search function. The use can add items to the cart and
+              remove them. The user can also see the total amount of the cart.
+              The user can also see the details of the product and reviews.
             </Card.Text>
           </>
         )}
@@ -46,24 +41,23 @@ function BogeysCard() {
       <Card.Body>
         <ListGroup className="list-group-flush text-start fs-6 mb-3">
           <ListGroup.Item>HTML</ListGroup.Item>
-          <ListGroup.Item>CSS</ListGroup.Item>
-          <ListGroup.Item>JavaScript</ListGroup.Item>
+          <ListGroup.Item>CSS modules</ListGroup.Item>
+          <ListGroup.Item>React</ListGroup.Item>
           <ListGroup.Item>API fetch</ListGroup.Item>
           <ListGroup.Item>WCAG</ListGroup.Item>
-          <ListGroup.Item>Wordpress</ListGroup.Item>
         </ListGroup>
       </Card.Body>
       <Card.Body>
         <Card.Link
           className="text-dark"
-          href="https://github.com/Noroff-FEU-Assignments/project-exam-1-Miksel90.git"
+          href="https://github.com/Miksel90/Js-Frameworks-CA.git"
         >
           <FaGithub className="fs-3 m-1 text-black" />
           Github Repository
         </Card.Link>
         <Card.Link
           className="text-dark"
-          href="https://bogeys-bunkers.netlify.app/"
+          href="https://vaultgadgets.netlify.app/"
         >
           <FaChrome className="fs-3 m-1" />
           Website
@@ -73,4 +67,4 @@ function BogeysCard() {
   );
 }
 
-export default BogeysCard;
+export default GadgetVaultCard;

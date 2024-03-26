@@ -3,9 +3,9 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Button from "react-bootstrap/Button";
 import { FaGithub, FaChrome } from "react-icons/fa";
-import imageOne from "../images/Projects/Bogeys.webp";
+import imageOne from "../images/Projects/poketown.webp";
 
-function BogeysCard() {
+function PokeCard() {
   const [showList, setShowList] = useState(false);
 
   const toggleList = () => {
@@ -19,7 +19,7 @@ function BogeysCard() {
     >
       <Card.Img variant="top" style={{ height: "145px" }} src={imageOne} />
       <Card.Body>
-        <Card.Title className="fs-1 mb-3">Bogeys & Bunkers</Card.Title>
+        <Card.Title className="fs-1 mb-3">Pokètown</Card.Title>
         <Button
           className=" btn-lg bg-white border border-dark text-black m-auto"
           onClick={toggleList}
@@ -29,16 +29,17 @@ function BogeysCard() {
         {showList && (
           <>
             <Card.Text className="text-start mt-3 fs-5">
-              This was our end of year one exam. We had a ton of freedom but we
-              were not allowed to use and frameworks or libaries. Everything is
-              built with HTML/CSS/JS. The task was to build a blogsite were the
-              content was dynamically built after fetching data from Wordpress.
+              This was a project for the first two courses at my second year a
+              Noroff. The task was to build a social platform of some sort. In
+              our first course we had two weeks to design the site using
+              Bootstrap. We were not allowed to add custom styling.
             </Card.Text>
             <Card.Text className="text-start fs-5">
-              The index page had to include a working image carousel which
-              showcased the latest posts. All specific blog pages had to be
-              dynamically built and all images on the pages had to modal
-              functionality.
+              The task was to use the previous project and implement features
+              with Javascript. All information was to be gathered from the
+              Noroff Social API using different methods. "GET", "PUT", "POST"
+              and "DELETE". We also had to save the access token in local
+              storage. The user could communicate with others users.
             </Card.Text>
           </>
         )}
@@ -46,25 +47,22 @@ function BogeysCard() {
       <Card.Body>
         <ListGroup className="list-group-flush text-start fs-6 mb-3">
           <ListGroup.Item>HTML</ListGroup.Item>
-          <ListGroup.Item>CSS</ListGroup.Item>
+          <ListGroup.Item>CSS/Sass</ListGroup.Item>
           <ListGroup.Item>JavaScript</ListGroup.Item>
+          <ListGroup.Item>Bootstrap</ListGroup.Item>
           <ListGroup.Item>API fetch</ListGroup.Item>
           <ListGroup.Item>WCAG</ListGroup.Item>
-          <ListGroup.Item>Wordpress</ListGroup.Item>
         </ListGroup>
       </Card.Body>
       <Card.Body>
         <Card.Link
           className="text-dark"
-          href="https://github.com/Noroff-FEU-Assignments/project-exam-1-Miksel90.git"
+          href="https://github.com/Miksel90/css-frameworks-ca.git"
         >
           <FaGithub className="fs-3 m-1 text-black" />
           Github Repository
         </Card.Link>
-        <Card.Link
-          className="text-dark"
-          href="https://bogeys-bunkers.netlify.app/"
-        >
+        <Card.Link className="text-dark" href="https://poketown.netlify.app/">
           <FaChrome className="fs-3 m-1" />
           Website
         </Card.Link>
@@ -73,4 +71,4 @@ function BogeysCard() {
   );
 }
 
-export default BogeysCard;
+export default PokeCard;

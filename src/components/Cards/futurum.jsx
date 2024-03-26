@@ -4,7 +4,6 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Button from "react-bootstrap/Button";
 import { FaGithub, FaChrome } from "react-icons/fa";
 import imageOne from "../images/Projects/Futurum.webp";
-import { CardBody } from "react-bootstrap";
 
 function FuturumCard() {
   const [showList, setShowList] = useState(false);
@@ -16,9 +15,9 @@ function FuturumCard() {
   return (
     <Card
       className="p-1 col-md-3"
-      style={{ height: "100%", minHeight: "700px" }}
+      style={{ height: "100%", minHeight: "720px" }}
     >
-      <Card.Img variant="top" src={imageOne} />
+      <Card.Img variant="top" style={{ height: "145px" }} src={imageOne} />
       <Card.Body>
         <Card.Title className="fs-1 mb-3">Futurum</Card.Title>
         <Button
