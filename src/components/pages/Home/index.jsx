@@ -34,9 +34,9 @@ function HomePage() {
             </div>
             <p className="p-1 fw-bold fs-3 text-white shadowText">
               I like solving problems, and to turn challenges into solutions.
-              <span className="d-block">
-                I am playful, calm and{" "}
-                <span className="text-black bg-white rounded p-1">
+              <span className="d-block m-1">
+                I am playful, calm and
+                <span className="text-black bg-white rounded p-1 m-1">
                   Eager To Learn.
                 </span>
               </span>

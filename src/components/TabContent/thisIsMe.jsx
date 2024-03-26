@@ -81,30 +81,31 @@ function ThisIsMeTab() {
         <div className="col-md-9 ">
           <p ref={refFour} className={styles.fadeIn}>
             My name is Mikael and I am (and I can not really grasp it) now 34
-            years old. I live in Nesodden, were I also grew up, which a small
-            island outside of Oslo, or its actually a peninsula if we want to be
-            technical. Some citizens of Oslo, refer to us as the ferry people.
+            years old. I live in Nesodden, were I grew up, which is a small
+            island outside of Oslo, or its actually a peninsula if we want to
+            get technical. Some citizens of Oslo, refer to us as the ferry
+            people.
             <FcLike className="mb-2" />
           </p>
           <p ref={refFive} className={`${styles.fadeIn} mt-4`}>
-            I am quite the social guy and is known as the guy that is always
-            smiling, even on the occasional bad day. I`ve been a people person
-            for as long as I can remember, and I love to meet and interact we
+            I am quite the social guy and is known as the guy that always
+            smiles, even on the occasional bad day. I`ve been a people person
+            for as long as I can remember, and I love to meet and interact with
             new people. I have a bunch of close friends that I love to hang out
             with, and also quite the vast network of people that I have met
-            through my life. I am a very open person, and I I want everyone I
+            through my life. I am a very open person, and I want everyone I
             interact with to feel comfortable and welcome, and that they always
             feel like a part of the group.
           </p>
           <p ref={refSix} className={`${styles.fadeIn} mt-4`}>
             I am a active person, and i try to workout 4-5 times a week. I love
             lifting heavy weights, but I hate running unless there is a ball
-            involved. I have played handball from i was 10, but had to hang up
-            the jersey as i wanted my knees to support me a bit longer in life.
+            involved. I have played handball since I was 10, but had to hang up
+            the jersey as I wanted my knees to support me a bit longer in life.
             After I quit handball I started coaching, and I coach two youth
             teams. I love it, and I love to see them grow as players and as
             people. I also love to play golf, and I try to play as much as I
-            can. I am not very good, but I love the game, to compete and being
+            can. I am not very good, but love the game, to compete and being
             social.
           </p>
         </div>
