@@ -37,9 +37,9 @@ function PokeCard() {
             <Card.Text className="text-start fs-5">
               The task was to use the previous project and implement features
               with Javascript. All information was to be gathered from the
-              Noroff Social API using different methods. "GET", "PUT", "POST"
-              and "DELETE". We also had to save the access token in local
-              storage. The user could communicate with others users.
+              Noroff Social API using different methods. GET, PUT, POST and
+              DELETE. We also had to save the access token in local storage. The
+              user could communicate with others users.
             </Card.Text>
           </>
         )}
