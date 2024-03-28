@@ -32,12 +32,10 @@ function LanguageList() {
       <li className={styles.listItem}>JavaScript</li>
       <li className={styles.listItem}>Sass</li>
       <li className={styles.listItem}>Bootstrap</li>
-      <li className={styles.listItem}>tailwind</li>
+      <li className={styles.listItem}>Tailwind-CSS</li>
       <li className={styles.listItem}>React</li>
-      <li className={styles.listItem}>Sass</li>
-      <li className={styles.listItem}>Bootstrap</li>
-      <li className={styles.listItem}>tailwind</li>
-      <li className={styles.listItem}>React</li>
+      <li className={styles.listItem}>Cypress</li>
+      <li className={styles.listItem}>Jest</li>
     </ul>
   );
 }

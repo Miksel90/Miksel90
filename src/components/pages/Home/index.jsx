@@ -10,10 +10,10 @@ function HomePage() {
       <Helmet>
         <title>Home | Mikael Selstad</title>
       </Helmet>
-      <div className="container p-5 ">
+      <div className="container p-5 bg-black bg-opacity-10">
         <h1 className="p-1">
           <span className={`${styles.heroText}`}>Hello, I am </span>
-          <span className={`${styles.heroName} p-1`}>Mikael Selstad</span>
+          <span className={`${styles.heroName} `}>Mikael Selstad</span>
           <span className={`${styles.heroText} d-block p-2`}>
             a Frontend developer
           </span>
@@ -23,6 +23,7 @@ function HomePage() {
             <div className="d-flex align-items-center justify-content-center ">
               <Image
                 src={profileImage}
+                alt=" Profile image of Mikael Selstad"
                 fluid
                 roundedCircle
                 className=" m-0 p-0 border border-dark shadow-lg "
@@ -32,13 +33,17 @@ function HomePage() {
                 }}
               />
             </div>
-            <p className="p-1 fw-bold fs-3 text-white shadowText">
-              I like solving problems, and to turn challenges into solutions.
+            <p className={`${styles.heroParagraph} p-1 fw-bold fs-3 `}>
+              I like <span className={styles.shortText1}>solving problems</span>
+              , and to turn
+              <span className={styles.shortText2}>
+                {" "}
+                challenges into solutions.
+              </span>
               <span className="d-block m-1">
-                I am playful, calm and
-                <span className="text-black bg-white rounded p-1 m-1">
-                  Eager To Learn.
-                </span>
+                I am <span className={styles.shortText3}>playful</span>,
+                <span className={styles.shortText4}> calm</span> and
+                <span className={styles.shortText5}> Eager To Learn.</span>
               </span>
             </p>
           </div>
