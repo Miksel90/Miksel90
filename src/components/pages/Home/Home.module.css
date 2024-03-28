@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Sarpanch:900");
 
 .heroText {
-  /* color: transparent;
-  -webkit-text-stroke: 2px #ff0606;
-  font-size: 50px;
-  text-shadow: 2px 2px 4px #000000; */
   text-transform: uppercase;
   font-family: verdana;
   font-size: 40px;
@@ -33,32 +29,31 @@
 .shortText1 {
   color: #3498db;
   text-shadow: 2px 2px 4px #2c3e50;
-  font-style: italic;
-  background-color: none;
+  font-family: "Sarpanch", sans-serif;
 }
 
 .shortText2 {
   color: #e74c3c;
   text-shadow: 2px 2px 4px #641e16;
-  font-style: italic;
+  font-family: "Sarpanch", sans-serif;
 }
 
 .shortText3 {
   color: #2ecc71;
   text-shadow: 2px 2px 4px #145a32;
-  font-style: italic;
+  font-family: "Sarpanch", sans-serif;
 }
 
 .shortText4 {
   color: #9b59b6;
   text-shadow: 2px 2px 4px #6c3483;
-  font-style: italic;
+  font-family: "Sarpanch", sans-serif;
 }
 
 .shortText5 {
   color: #f1c40f;
   text-shadow: 2px 2px 4px #7f8c8d;
-  font-style: italic;
+  font-family: "Sarpanch", sans-serif;
 }
 
 .popoverBox {
