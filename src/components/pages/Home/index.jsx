@@ -35,7 +35,7 @@ function HomePage() {
             </div>
             <p className={`${styles.heroParagraph} p-1 fw-bold fs-3 `}>
               I like <span className={styles.shortText1}>solving problems</span>
-              , and to turn
+              and to turn
               <span className={styles.shortText2}>
                 {" "}
                 challenges into solutions.
