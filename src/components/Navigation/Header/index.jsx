@@ -33,7 +33,7 @@ const HeaderNavigation = ({ brandName }) => {
               About
             </Nav.Link>
             <Nav.Link as={Link} to="/projects">
-              Skills
+              Projects
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
