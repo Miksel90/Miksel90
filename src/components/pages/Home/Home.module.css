@@ -1,68 +1,23 @@
-@import url("https://fonts.googleapis.com/css?family=Sarpanch:900");
-
 .heroText {
-  text-transform: uppercase;
   font-family: verdana;
   font-size: 40px;
   font-weight: 700;
   color: #f5f5f5;
   text-shadow: 2px 2px 4px #000000;
-}
-.heroName {
-  grid-area: text;
-  font-family: "Sarpanch", sans-serif;
-  font-size: 18vmin;
-  margin: 0;
-  padding: 10px;
-  color: #1d9099;
-  text-shadow: 1vmin 1vmin 0 #e79c10, -1vmin -1vmin 0 #d53a33;
+  text-align: start;
 }
 
 .heroParagraph {
-  font-size: 20px;
   color: #f5f5f5;
   text-shadow: 2px 2px 4px #000000;
   font-weight: 700;
-  margin: 0;
-}
-
-.shortText1 {
-  color: #3498db;
-  text-shadow: 2px 2px 4px #2c3e50;
-  font-family: "Sarpanch", sans-serif;
-}
-
-.shortText2 {
-  color: #e74c3c;
-  text-shadow: 2px 2px 4px #641e16;
-  font-family: "Sarpanch", sans-serif;
-}
-
-.shortText3 {
-  color: #2ecc71;
-  text-shadow: 2px 2px 4px #145a32;
-  font-family: "Sarpanch", sans-serif;
-}
-
-.shortText4 {
-  color: #9b59b6;
-  text-shadow: 2px 2px 4px #6c3483;
-  font-family: "Sarpanch", sans-serif;
-}
-
-.shortText5 {
-  color: #f1c40f;
-  text-shadow: 2px 2px 4px #7f8c8d;
-  font-family: "Sarpanch", sans-serif;
-}
-
-.popoverBox {
-  margin-top: 120px;
+  text-align: start;
 }
 
 @media screen and (max-width: 500px) {
   .heroText {
     font-size: 30px;
+    margin-top: 10px;
   }
 }
 

@@ -1,4 +1,5 @@
 import { useEffect, useState, cloneElement } from "react";
+import PropTypes from "prop-types";
 import styles from "./Scroller.module.css";
 
 const Scroller = ({ children }) => {
@@ -72,6 +73,10 @@ const Scroller = ({ children }) => {
       </div>
     </div>
   );
+};
+
+Scroller.propTypes = {
+  children: PropTypes.element.isRequired,
 };
 
 export default Scroller;
