@@ -1,7 +1,5 @@
 ### Hello there, I am Mikael Selstad 👋😊💻
 
-<img src="images/read-me.jpg">
-
 ## About me
 
 🔭 I am a Front End Developer (student) & former teacher located in Nesoddtangen, outside Oslo, Norway.
