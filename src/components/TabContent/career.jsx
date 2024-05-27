@@ -97,12 +97,14 @@ function CareerTab() {
             src={imageOne}
             fluid
             className={`${styles.fadeIn} ${styles.tabImage}`}
+            alt="Mikael Selstad"
           />
           <Image
             ref={refTwo}
             src={imageTwo}
             fluid
             className={`${styles.fadeIn} ${styles.tabImage}`}
+            alt="Mikael Selstad"
           />
         </div>
       </div>
@@ -113,6 +115,7 @@ function CareerTab() {
             src={imageThree}
             fluid
             className={`${styles.fadeIn} ${styles.tabImage}`}
+            alt="Mikael Selstad"
           />
         </div>
         <div className="col-md-9 mt-1">

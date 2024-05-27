@@ -88,6 +88,7 @@ function PassionsTab() {
             src={imageOne}
             fluid
             className={`${styles.fadeIn} ${styles.tabImage}`}
+            alt="Profile image of Mikael Selstad"
           />
         </div>
       </div>
@@ -98,6 +99,7 @@ function PassionsTab() {
             src={imageThree}
             fluid
             className={`${styles.fadeIn} ${styles.tabImage}`}
+            alt="Profile image of Mikael Selstad"
           />
         </div>
         <div className="col-md-9 mt-1">

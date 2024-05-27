@@ -13,6 +13,7 @@ function ContactContainer() {
       <div className="d-flex gap-4">
         <a href="https://github.com/Miksel90">
           <FaGithub
+            aria-label="Github Profile"
             style={{
               fontSize: "5rem",
               backgroundColor: "white",
@@ -24,6 +25,7 @@ function ContactContainer() {
         </a>
         <a href="https://www.linkedin.com/in/mikael-selstad-921251279">
           <TiSocialLinkedinCircular
+            aria-label="LinkedIn Profile"
             style={{
               fontSize: "5rem",
               backgroundColor: "white",

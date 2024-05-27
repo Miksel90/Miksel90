@@ -70,12 +70,14 @@ function ThisIsMeTab() {
             src={imageOne}
             fluid
             className={`${styles.fadeIn} ${styles.tabImage}`}
+            alt="Profile image of Mikael Selstad"
           />
           <Image
             ref={refTwo}
             src={imageTwo}
             fluid
             className={`${styles.fadeIn} ${styles.tabImage}`}
+            alt="Profile image of Mikael Selstad"
           />
         </div>
         <div className="col-md-9 ">
@@ -135,6 +137,7 @@ function ThisIsMeTab() {
             src={imageThree}
             fluid
             className={`${styles.fadeIn} ${styles.tabImage}`}
+            alt="Profile image of Mikael Selstad"
           />
         </div>
       </div>
