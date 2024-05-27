@@ -1,106 +1,36 @@
+import { FcLike } from "react-icons/fc";
+import { FadeInImage, FadeInText } from "./index.jsx";
 import imageOne from "../images/Profile/profile-2.webp";
 import imageTwo from "../images/Profile/profile-7.webp";
 import imageThree from "../images/Profile/profile-8.webp";
-import { FcLike } from "react-icons/fc";
-import { useEffect, useRef } from "react";
-
-import Image from "react-bootstrap/Image";
-import styles from "./TabContent.module.css";
 
 function ThisIsMeTab() {
-  const refOne = useRef(null);
-  const refTwo = useRef(null);
-  const refThree = useRef(null);
-  const refFour = useRef(null);
-  const refFive = useRef(null);
-  const refSix = useRef(null);
-  const refSeven = useRef(null);
-  const refEight = useRef(null);
-  const refNine = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries, observer) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add(styles.fadeInVisible);
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      {
-        threshold: 0.1,
-      }
-    );
-
-    const refs = [
-      refOne,
-      refTwo,
-      refThree,
-      refFour,
-      refFive,
-      refSix,
-      refSeven,
-      refEight,
-      refNine,
-    ];
-    refs.forEach((ref) => {
-      if (ref.current) {
-        observer.observe(ref.current);
-      }
-    });
-
-    return () => {
-      refs.forEach((ref) => {
-        if (ref.current) {
-          observer.unobserve(ref.current);
-        }
-      });
-    };
-  }, []);
   return (
-    <div className="Container text-white shadowText text-start fs-4 bg-dark bg-opacity-25 p-3">
+    <div className="container text-white shadowText text-start fs-4 bg-dark bg-opacity-25 p-3">
       <h1 className="align-items-center text-center p-1 mt-3">
         Love to win, hate to lose, but a good sport.
       </h1>
       <div className="row mt-4">
-        <div className="col-md-3  ">
-          <Image
-            ref={refOne}
-            src={imageOne}
-            fluid
-            className={`${styles.fadeIn} ${styles.tabImage}`}
-            alt="Profile image of Mikael Selstad"
-          />
-          <Image
-            ref={refTwo}
-            src={imageTwo}
-            fluid
-            className={`${styles.fadeIn} ${styles.tabImage}`}
-            alt="Profile image of Mikael Selstad"
-          />
+        <div className="col-md-3">
+          <FadeInImage src={imageOne} alt="Profile image of Mikael Selstad" />
+          <FadeInImage src={imageTwo} alt="Profile image of Mikael Selstad" />
         </div>
-        <div className="col-md-9 ">
-          <p ref={refFour} className={styles.fadeIn}>
+        <div className="col-md-9">
+          <FadeInText>
             My name is Mikael and I am (and I can not really grasp it) now 34
-            years old. I live in Nesodden, were I grew up, which is a small
-            island outside of Oslo, or its actually a peninsula if we want to
+            years old. I live in Nesodden, where I grew up, which is a small
+            island outside of Oslo, or it`s actually a peninsula if we want to
             get technical. Some citizens of Oslo, refer to us as the ferry
+            people. <FcLike className="mb-2" />
+          </FadeInText>
+          <FadeInText className="mt-4">
+            I am quite the social guy and known as the guy that always smiles,
+            even on the occasional bad day. I`ve been a people person for as
+            long as I can remember, and I love to meet and interact with new
             people.
-            <FcLike className="mb-2" />
-          </p>
-          <p ref={refFive} className={`${styles.fadeIn} mt-4`}>
-            I am quite the social guy and is known as the guy that always
-            smiles, even on the occasional bad day. I`ve been a people person
-            for as long as I can remember, and I love to meet and interact with
-            new people. I have a bunch of close friends that I love to hang out
-            with, and also quite the vast network of people that I have met
-            through my life. I am a very open person, and I want everyone I
-            interact with to feel comfortable and welcome, and that they always
-            feel like a part of the group.
-          </p>
-          <p ref={refSix} className={`${styles.fadeIn} mt-4`}>
-            I am a active person, and i try to workout 4-5 times a week. I love
+          </FadeInText>
+          <FadeInText className="mt-4">
+            I am an active person and I try to workout 4-5 times a week. I love
             lifting heavy weights, but I hate running unless there is a ball
             involved. I have played handball since I was 10, but had to hang up
             the jersey as I wanted my knees to support me a bit longer in life.
@@ -109,36 +39,27 @@ function ThisIsMeTab() {
             people. I also love to play golf, and I try to play as much as I
             can. I am not very good, but love the game, to compete and being
             social.
-          </p>
+          </FadeInText>
         </div>
       </div>
       <div className="row mb-3 mt-3">
         <div className="col-md-9 mt-1">
-          <p ref={refSeven} className={styles.fadeIn}>
-            Other then that I like to cook, and love to eat, good food is the
+          <FadeInText>
+            Other than that I like to cook, and love to eat, good food is the
             main reason I work out. I mostly cook from scratch and like to use
             authentic ingredients. I also enjoy a good glass of wine, and I am
-            as comfortable in a bar as i am on the dance floor.
-          </p>
-          <p ref={refEight} className={`${styles.fadeIn} `}>
+            as comfortable in a bar as I am on the dance floor.
+          </FadeInText>
+          <FadeInText>
             I am a curious person, and I enjoy learning new things. Sometimes I
             google completely random things to figure out how things work, which
-            also makes me a menance at quiz nights. I am also a bit of a nerd
-            and play videogames, collect trading cards and watch anime.
-          </p>
-          <p ref={refNine} className={`${styles.fadeIn} mt-5 fs-2`}>
-            {" "}
-            This Is Me!
-          </p>
+            also makes me a menace at quiz nights. I am also a bit of a nerd and
+            play video games, collect trading cards and watch anime.
+          </FadeInText>
+          <FadeInText className="mt-5 fs-2">This Is Me!</FadeInText>
         </div>
         <div className="col-md-3">
-          <Image
-            ref={refThree}
-            src={imageThree}
-            fluid
-            className={`${styles.fadeIn} ${styles.tabImage}`}
-            alt="Profile image of Mikael Selstad"
-          />
+          <FadeInImage src={imageThree} alt="Profile image of Mikael Selstad" />
         </div>
       </div>
     </div>
