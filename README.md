@@ -19,10 +19,10 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" title="Tailwind CSS" alt="Tailwind CSS" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/udecode/ud-design/master/docs/src/assets/images/logo.svg" title="UD-Design" alt="UD-Design" width="40" height="40"/>&nbsp;
-  <img src="https://hest.dev/logo.svg" title="Hest" alt="Hest" width="40" height="40"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" title="Jest" alt="Jest" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" title="Jest" alt="Jest" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/cypress-io/cypress/develop/assets/logo-dark.png" title="Cypress" alt="Cypress" width="40" height="40"/>
 </div>
+
 
 
 ## Contributing
