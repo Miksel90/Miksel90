@@ -52,7 +52,7 @@ function HomePage() {
                 </span>
               </h1>
               <p className={`${styles.heroParagraph} fs-5`}>
-                I passionate about web development and design and I
+                I passionate about experiences, design and I
                 <br /> like solving problems and turning challenges into
                 solutions.
               </p>
