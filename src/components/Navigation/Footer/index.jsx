@@ -16,7 +16,7 @@ const FooterNavigation = () => {
           About
         </Nav.Link>
         <Nav.Link as={Link} to="/projects" style={{ color: "#000" }}>
-          Skills
+          Projects
         </Nav.Link>
       </Nav>
     </>
