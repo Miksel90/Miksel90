@@ -7,20 +7,23 @@
 
 🔭 I am a Front End Developer (student) & former teacher located in Nesoddtangen, outside Oslo, Norway.
 
-🌱 I decided to leave my job as a teacher after 8 years to pursue a new path in life. Currently studying Front End development at Noroff and I have just finished year 1. 
-I started studying in August 2022.
-
+🌱 I decided to leave my job as a teacher after 8 years to pursue a new path in life. I recently endend my Frontend Development studies at Noroff with straight A`s and currently looking for a job!
 😊 Outside coding I like to play video games, lift heavy weights, collect Pokemon cards and cooking from scracth!
 
 ## Languages 
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" title="Tailwind CSS" alt="Tailwind CSS" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/udecode/ud-design/master/docs/src/assets/images/logo.svg" title="UD-Design" alt="UD-Design" width="40" height="40"/>&nbsp;
+  <img src="https://hest.dev/logo.svg" title="Hest" alt="Hest" width="40" height="40"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" title="Jest" alt="Jest" width="40" height="40"/>
 </div>
+
 
 ## Contributing
 Most of my repos are school projects, and it would be awesome if you would open a pull request if you want to play around with it.
