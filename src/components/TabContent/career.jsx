@@ -80,15 +80,16 @@ function CareerTab() {
             worked in, and also had students in practice every year. Since the
             school wanted to implement coding I was chosen to be the schools
             coding expert. I started learning coding in 2019. I mainly started
-            with block-coding to having something to start with, with my pupils.
-            We built robots, and programmed them to do different tasks. We also
-            started with minecraft coding. This got me thinking, and I looked
-            into going back to school.
+            with block-coding with my pupils. We built robots, and programmed
+            them to do different tasks. We also started with minecraft coding.
+            This got me thinking, and I looked into going back to school.
           </p>
           <p ref={refSix} className={`${styles.fadeIn} mt-4`}>
             {" "}
-            During spring 2022 I decide to quit teaching and applied to frontend
-            developing at Noroff.
+            During spring 2022 I decided to quit teaching and applied to
+            frontend developing at Noroff. As of 2024 i have finished my two
+            year degree with straight A`s and is currently looking for a new
+            job!`
           </p>
         </div>
         <div className="col-md-3  ">
