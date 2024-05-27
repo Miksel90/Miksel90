@@ -17,12 +17,19 @@ function ProjectCard({ project }) {
     <>
       <Card
         className="p-1 col-md-3"
-        style={{ height: "100%", minHeight: "500px", maxHeight: "500px" }}
+        style={{
+          height: "100%",
+          minHeight: "500px",
+          maxHeight: "500px",
+          minWidth: "300px",
+          maxWidth: "300px",
+        }}
       >
         <Card.Img
           variant="top"
           style={{ height: "145px" }}
           src={project.image}
+          alt={project.alt}
         />
         <Card.Body>
           <Card.Title className="fs-3 mb-3">{project.title}</Card.Title>
@@ -70,6 +77,7 @@ function ProjectCard({ project }) {
             variant="top"
             style={{ height: "145px" }}
             src={project.image}
+            alt={project.alt}
           />
           {project.description.map((desc, idx) => (
             <Card.Text key={idx} className="text-start mt-3 fs-5">
@@ -96,6 +104,7 @@ ProjectCard.propTypes = {
   project: PropTypes.shape({
     title: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
+    alt: PropTypes.string.isRequired,
     description: PropTypes.arrayOf(PropTypes.string).isRequired,
     skills: PropTypes.arrayOf(PropTypes.string).isRequired,
     github: PropTypes.string.isRequired,

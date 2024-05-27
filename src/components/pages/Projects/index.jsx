@@ -10,9 +10,9 @@ function ProjectsPage() {
       <Helmet>
         <title>Projects | Mikael Selstad</title>
       </Helmet>
-      <h1 className="text-white shadowText mt-3">Projects</h1>
+      <h1 className="text-white mt-1 shadowText ">Projects</h1>
       <div className="container-fluid p-3 d-flex justify-content-center flex-column flex-wrap m-auto">
-        <div className="gap-1 d-flex justify-content-evenly flex-wrap">
+        <div className="gap-4 d-flex justify-content-evenly flex-wrap">
           {projectsData.map((project, index) => (
             <ProjectCard key={index} project={project} />
           ))}
