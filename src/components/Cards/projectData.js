@@ -9,7 +9,9 @@ const projectsData = [
   {
     title: "Holidaze",
     image: HolidazeImage,
-    description: [],
+    description: [
+      "This was my final Exam at Noroff were we were to use all the skills we acquired over the past two years. Holidaze is a web application that allows users to browse, list and book venues. All users can browse the website and registered users can book, edit, create and delete venues and edit their profile. A registered user can sign up as a venue manager and can then list their own venues. The api limits the the user to use URL-images. The application is responsive and is built with React and Tailwind CSS. It is using the Noroff school API to fetch the data for venues and profiles.",
+    ],
     skills: ["React", "Tailwind CSS", "Noroff API", "Responsive", "WCAG"],
     github: "https://github.com/Miksel90/Holidaze.git",
     website: "https://holidaze2.netlify.app/",
