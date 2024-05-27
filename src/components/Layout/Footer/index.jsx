@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
       <div className="col-2 mt-3">
         <p className="text-center align-items-center d-flex justify-content-center">
-          © 2023 Mikael Selstad
+          © 2024 Mikael Selstad
         </p>
       </div>
     </footer>
