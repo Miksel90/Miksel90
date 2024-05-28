@@ -27,21 +27,21 @@ function HomePage() {
       </Helmet>
       <div className="container p-5 bg-black bg-opacity-10 h-100">
         <div className="row ">
-          <div className="col-md-12 mb-1 d-flex flex-column flex-md-row align-items-center justify-content-evenly gap-2">
-            <div className="d-flex mb-3">
+          <div className="col-md-12 mb-1 d-flex flex-column flex-md-row align-items-center justify-content-evenly">
+            <div className=" mb-3">
               <Image
                 src={profileImage}
                 alt="Profile image of Mikael Selstad"
                 fluid
                 roundedCircle
-                className="m-0 p-0 border border-dark shadow-lg"
+                className="m-0 p-0 border border-dark shadow-lg mt-2"
                 style={{
                   backgroundSize: "cover",
                   maxHeight: "200px",
                 }}
               />
             </div>
-            <div className="d-flex flex-column  text-md-start">
+            <div className="d-flex flex-column text-md-start p-2">
               <h1 className={`${styles.heroText} `}>
                 <span>
                   Hello {words[currentWordIndex]}!
@@ -63,8 +63,8 @@ function HomePage() {
           <ContactContainer />
         </div>
         <div>
-          <div className=" container-fluid d-flex justify-content-center flex-column flex-wrap m-auto">
-            <h1 className="text-white shadowText "> Stack And Skills</h1>
+          <div className=" container-fluid d-flex justify-content-start flex-wrap m-auto">
+            <h1 className="text-white shadowText mt-5 "> Stack And Skills</h1>
             <div className="row">
               <p className="shadowText text-white fs-2 text-start">Languages</p>
               <div className=" d-flex justify-content-around">

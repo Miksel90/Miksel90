@@ -3,12 +3,10 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 function ContactContainer() {
   return (
-    <main className="container p-5 text-white justify-content-start">
-      <h2 className="text-start shadowText">Let`s Talk </h2>
-      <div className="mt-2 d-flex flex-column fs-3">
-        <div className="mb-3 d-flex align-items-center ">
-          <p className="mb-0 text-white shadowText">Mikael.selstad@gmail.com</p>
-        </div>
+    <main className="container text-white d-flex flex-column  ">
+      <div className="f-flex flex-row justify-content-evenly shadowText">
+        <h2 className="text-start shadowText">Let`s Talk </h2>
+        <p className="mb-4  fs-4 text-start">Mikael.selstad@gmail.com</p>
       </div>
       <div className="d-flex gap-4">
         <a href="https://github.com/Miksel90">

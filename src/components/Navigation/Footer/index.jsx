@@ -5,7 +5,7 @@ const FooterNavigation = () => {
   return (
     <>
       <Nav
-        className="justify-content-center"
+        className="justify-content-evenly flex-row align-items-center fs-5"
         activeKey="/home"
         style={{ fontSize: "22px", Color: "primary" }}
       >
