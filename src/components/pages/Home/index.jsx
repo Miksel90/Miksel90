@@ -64,9 +64,10 @@ function HomePage() {
         </div>
         <div>
           <div className=" container-fluid d-flex justify-content-start flex-wrap m-auto">
-            <h1 className="text-white shadowText mt-5 "> Stack And Skills</h1>
             <div className="row">
-              <p className="shadowText text-white fs-2 text-start">Languages</p>
+              <p className="shadowText text-white fs-2 text-start mt-5">
+                Languages
+              </p>
               <div className=" d-flex justify-content-around">
                 <Scroller>
                   <LanguageList />
