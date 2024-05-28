@@ -9,10 +9,10 @@ function ProjectsPage() {
         <title>Projects | Mikael Selstad</title>
       </Helmet>
       <div className="bg-black bg-opacity-10">
-        <h1 className="text-white shadowText p-1  text-center">Projects</h1>
+        <h1 className="text-white shadowText p-1 text-center">Projects</h1>
         <h2
-          className="text-white shadowText text-center fs-5 p-2 mx-auto"
-          style={{ maxWidth: "800px" }}
+          className="text-white shadowText text-center fs-5 p-2 mx-auto mb-4"
+          style={{ maxWidth: "900px" }}
         >
           Featured below is a list of my projects. It has been a journey and I
           would like to showcase how my skills have improved over the short
