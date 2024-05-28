@@ -79,18 +79,6 @@ const projectsData = [
     website: "https://poketown.netlify.app/",
   },
   {
-    title: "Futurum",
-    image: futurumImage,
-    alt: "Futurum project screenshot",
-    description: [
-      "Futurum was our first semester project. We were to use our skills with Figma and then HTML/CSS to build a website for a the new hypothetical museum that was opening in our hometown.",
-      "The target audience were children aged 7-15 and young families, hence the playful colors. We also had to work with more text on this task so that was a bit of a challenge. We were not allowed to use any frameworks or libraries.",
-    ],
-    skills: ["HTML", "CSS", "Responsive", "WCAG"],
-    github: "https://github.com/Miksel90/Semester-project-1.git",
-    website: "https://futurum-semester1.netlify.app/",
-  },
-  {
     title: "Bogeys & Bunkers",
     image: bogeysImage,
     alt: "Bogeys & Bunkers project screenshot",
@@ -102,6 +90,18 @@ const projectsData = [
     github:
       "https://github.com/Noroff-FEU-Assignments/project-exam-1-Miksel90.git",
     website: "https://bogeys-bunkers.netlify.app/",
+  },
+  {
+    title: "Futurum",
+    image: futurumImage,
+    alt: "Futurum project screenshot",
+    description: [
+      "Futurum was our first semester project. We were to use our skills with Figma and then HTML/CSS to build a website for a the new hypothetical museum that was opening in our hometown.",
+      "The target audience were children aged 7-15 and young families, hence the playful colors. We also had to work with more text on this task so that was a bit of a challenge. We were not allowed to use any frameworks or libraries.",
+    ],
+    skills: ["HTML", "CSS", "Responsive", "WCAG"],
+    github: "https://github.com/Miksel90/Semester-project-1.git",
+    website: "https://futurum-semester1.netlify.app/",
   },
 ];
 
