@@ -80,7 +80,7 @@ function ProjectCard({ project }) {
             alt={project.alt}
           />
           {project.description.map((desc, idx) => (
-            <Card.Text key={idx} className="text-start mt-3 fs-5">
+            <Card.Text key={idx} className="text-start mt-3 fs-5 p-2">
               {desc}
             </Card.Text>
           ))}
@@ -90,11 +90,6 @@ function ProjectCard({ project }) {
             ))}
           </ListGroup>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-        </Modal.Footer>
       </Modal>
     </>
   );
