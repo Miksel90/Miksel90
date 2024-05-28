@@ -4,7 +4,7 @@ import { FaRegCopyright } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer
-      className="text-lg-start bg-white d-flex justify-content-around"
+      className="text-lg-start bg-white d-flex justify-content-around flex-column flex-md-row align-items-center p-3 mt-3"
       style={{ zIndex: 1, bottom: 0, width: "100%" }}
     >
       <div className="row align-items-center">
