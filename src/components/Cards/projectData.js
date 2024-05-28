@@ -4,6 +4,7 @@ import gadgetVaultImage from "../images/Projects/gadgetvault.webp";
 import futurumImage from "../images/Projects/Futurum.webp";
 import bogeysImage from "../images/Projects/Bogeys.webp";
 import HolidazeImage from "../images/Projects/Holidaze.webp";
+import VilajoyhosaImage from "../images/Projects/vilajoyhosa.webp";
 
 const projectsData = [
   {
@@ -22,7 +23,7 @@ const projectsData = [
     image: gadgetVaultImage,
     alt: "GadgetVault project screenshot",
     description: [
-      "This was my first react project at Noroff. The task was to build an E-com shop using the noroff E-commerce API.The site has a lookahead search function. The use can add items to the cart and remove them. The user can also see the total amount of the cart. The user can also see the details of the product and reviews.",
+      "This was my first react project at Noroff. The task was to build an E-com shop using the noroff E-commerce API.The site has a lookahead search function. The user can add & remove items in the cart, view their total amount, and see product details and reviews.",
     ],
     skills: ["HTML", "CSS modules", "React", "Noroff API", "WCAG"],
     github: "https://github.com/Miksel90/Js-Frameworks-CA.git",
@@ -46,6 +47,17 @@ const projectsData = [
     ],
     github: "https://github.com/Miksel90/SemesterProject2.git",
     website: "https://vintagebrokers.netlify.app/",
+  },
+  {
+    title: "Costareta 19",
+    image: VilajoyhosaImage,
+    alt: "Project screenshot",
+    description: [
+      "Built a website to showcase an apartment for rent in Vilajoyhosa, Spain as the owner did want to list it on the larger sites and only rent out to friends and family. A small side project I did for a friend, and where I could practice Bootstrap.",
+    ],
+    skills: ["HTML", "CSS/Sass", "JavaScript", "Bootstrap"],
+    github: "https://github.com/Miksel90/Villajoyhosa.git",
+    website: "https://costareta19.netlify.app/",
   },
   {
     title: "Pokètown",
