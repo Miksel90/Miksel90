@@ -15,7 +15,7 @@ function HomePage() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
-    }, 1500);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [words.length]);
