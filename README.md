@@ -2,7 +2,7 @@
 
 ## About me
 
-🔭 I am a Front End Developer (student) & former teacher located in Nesoddtangen, outside Oslo, Norway.
+🔭 I am a former teacher gone developer,  located in Nesoddtangen, outside Oslo, Norway.
 
 🌱 I decided to leave my job as a teacher after 8 years to pursue a new path in life. Currently finished my proffesional degree in front-end development at Noroff with straigh A`s- I am now looking for a job to continue my journey within web-development, Ux/UI and design. 
 I started studying in August 2022.
