@@ -65,7 +65,7 @@ const Scroller = ({ children }) => {
   }, [isDuplicated]);
 
   return (
-    <div className={styles.scroller} data-speed="fast">
+    <div className={styles.scroller} data-speed="slow">
       <div className={styles.scroller__inner}>
         {cloneElement(children, {
           className: `${children.props.className} ${styles.scroller__content}`,

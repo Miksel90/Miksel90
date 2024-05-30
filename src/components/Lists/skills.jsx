@@ -7,7 +7,7 @@ function SkillList() {
     >
       <li className={styles.listItem}>Figma</li>
       <li className={styles.listItem}>Adobe</li>
-      <li className={styles.listItem}>UX-Design</li>
+      <li className={styles.listItem}>UX/UI</li>
       <li className={styles.listItem}>Github</li>
       <li className={styles.listItem}>Git</li>
       <li className={styles.listItem}>Github Projects</li>
@@ -19,9 +19,9 @@ function SkillList() {
       <li className={styles.listItem}>CMS</li>
       <li className={styles.listItem}>Netlify</li>
       <li className={styles.listItem}>WCAG</li>
-      <li className={styles.listItem}>Responsiveness</li>
+      <li className={styles.listItem}>Responsive</li>
       <li className={styles.listItem}>SEO</li>
-      <li className={styles.listItem}>Webdev</li>
+      <li className={styles.listItem}>WebDev</li>
       <li className={styles.listItem}>Testing</li>
     </ul>
   );

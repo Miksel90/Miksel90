@@ -16,7 +16,7 @@ function ProjectsPage() {
         >
           Featured below is a list of my projects. It has been a journey and I
           would like to showcase how my skills have improved over the short
-          period I've been coding & designing.
+          period I`ve been coding & designing.
         </h2>
         <div className="container d-flex justify-content-center flex-column flex-wrap m-auto">
           <div className="gap-4 d-flex justify-content-evenly flex-wrap mb-4">
