@@ -1,11 +1,14 @@
 import { FaGithub } from "react-icons/fa";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { useTranslator } from "../Translator/index.jsx";
 
 function ContactContainer() {
+  const { translate } = useTranslator();
+
   return (
     <main className="container text-white d-flex flex-column  ">
       <div className="f-flex flex-row justify-content-evenly shadowText">
-        <h2 className="text-start shadowText">Let`s Talk </h2>
+        <h2 className="text-start shadowText">{translate("Let's Talk")}</h2>
         <p className="mb-4  fs-4 text-start">Mikael.selstad@gmail.com</p>
       </div>
       <div className="d-flex gap-4">

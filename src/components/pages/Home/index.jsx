@@ -7,10 +7,12 @@ import { useState, useEffect } from "react";
 import Scroller from "../../Scroller/index.jsx";
 import LanguageList from "../../Lists/languages.jsx";
 import SkillList from "../../Lists/skills.jsx";
+import { useTranslator } from "../../Translator/index.jsx";
 
 function HomePage() {
-  const words = ["World", "You", "Everyone", "There", "Friend"];
+  const words = ["World", "You", "Everyone", "Friend"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  const { translate } = useTranslator();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -31,7 +33,7 @@ function HomePage() {
             <div className=" mb-3">
               <Image
                 src={profileImage}
-                alt="Profile image of Mikael Selstad"
+                alt={translate("Profile image of Mikael Selstad")}
                 fluid
                 roundedCircle
                 className="m-0 p-0 border border-dark shadow-lg mt-2"
@@ -41,20 +43,20 @@ function HomePage() {
                 }}
               />
             </div>
-            <div className="d-flex flex-column text-md-start p-2">
+            <div className="d-flex flex-column text-md-start p-2 ">
               <h1 className={`${styles.heroText} `}>
                 <span>
-                  Hello {words[currentWordIndex]}!
+                  {translate(`Hello ${words[currentWordIndex]}!`)}
                   <br />
-                  I am Mikael Selstad
+                  {translate("I am Mikael Selstad")}
                   <br />
-                  Frontend Developer
+                  {translate("Frontend Developer")}
                 </span>
               </h1>
               <p className={`${styles.heroParagraph} fs-5`}>
-                I`m passionate about experiences, design and I
-                <br /> like solving problems and turning challenges into
-                solutions.
+                {translate(
+                  "I`m passionate about experiences, design and I like solving problems and turning challenges into solutions."
+                )}
               </p>
             </div>
           </div>
@@ -66,7 +68,7 @@ function HomePage() {
           <div className=" container-fluid d-flex justify-content-start flex-wrap m-auto">
             <div className="row">
               <p className="shadowText text-white fs-2 text-start mt-5">
-                Languages
+                {translate("Languages")}
               </p>
               <div className=" d-flex justify-content-around">
                 <Scroller>
@@ -75,7 +77,9 @@ function HomePage() {
               </div>
             </div>
             <div className="row">
-              <p className="shadowText text-white fs-2 text-start">Skills</p>
+              <p className="shadowText text-white fs-2 text-start">
+                {translate("Skills")}
+              </p>
               <div className=" d-flex justify-content-around">
                 <Scroller>
                   <SkillList />
