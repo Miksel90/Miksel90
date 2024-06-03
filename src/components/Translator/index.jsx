@@ -160,7 +160,7 @@ const Translator = ({ children }) => {
       "Featured below is a list of my projects. It has been a journey and I would like to showcase how my skills have improved over the short period I`ve been coding & designing.":
         {
           en: "Featured below is a list of my projects. It has been a journey and I would like to showcase how my skills have improved over the short period I`ve been coding & designing.",
-          no: "Nedenfor er en liste over mine prosjekter. Det har vært en reise, og jeg vil gjerne vise hvordan ferdighetene mine har forbedret seg over den korte perioden jeg har kodet og designet.",
+          no: "Nedenfor er en liste over sider jeg har laget. Jeg ønsker å vise hvordan ferdighetene mine har forbedret seg over den korte perioden jeg har kodet og designet.",
         },
     };
 
