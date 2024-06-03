@@ -1,4 +1,5 @@
 import FooterNavigation from "/src/components/Navigation/Footer/index.jsx";
+import Flag from "react-flagkit";
 import { useTranslator } from "../../Translator";
 
 const Footer = () => {
@@ -19,11 +20,15 @@ const Footer = () => {
       </div>
       <div className="col-6 col-md-2 align-items-center">
         <button
-          className="btn btn-secondary mt-1"
+          className="btn btn-white mt-1 bg-whi"
           onClick={toggleLanguage}
-          style={{ width: "100%" }}
+          aria-label="Change language"
         >
-          {language === "en" ? "Norsk" : "English"}
+          {language === "en" ? (
+            <Flag country="NO" size={40} />
+          ) : (
+            <Flag country="GB" size={40} />
+          )}
         </button>
       </div>
     </footer>

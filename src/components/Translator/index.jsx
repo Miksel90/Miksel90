@@ -152,6 +152,16 @@ const Translator = ({ children }) => {
           en: "I love hearing the phrase, “I did not take you for a person who was into that.”",
           no: "Jeg elsker å høre uttrykket, “Jeg tok deg ikke for å være en person som var interessert i det.”",
         },
+
+      Projects: {
+        en: "Projects",
+        no: "Prosjekter",
+      },
+      "Featured below is a list of my projects. It has been a journey and I would like to showcase how my skills have improved over the short period I`ve been coding & designing.":
+        {
+          en: "Featured below is a list of my projects. It has been a journey and I would like to showcase how my skills have improved over the short period I`ve been coding & designing.",
+          no: "Nedenfor er en liste over mine prosjekter. Det har vært en reise, og jeg vil gjerne vise hvordan ferdighetene mine har forbedret seg over den korte perioden jeg har kodet og designet.",
+        },
     };
 
     return translations[text] ? translations[text][language] : text;
