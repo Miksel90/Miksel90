@@ -83,6 +83,7 @@ const projectsData = [
     image: bogeysImage,
     alt: "Bogeys & Bunkers project screenshot",
     description: [
+      "This is currently offline",
       "This was our end of year one exam. We had a ton of freedom but we were not allowed to use any frameworks or libraries. Everything is built with HTML/CSS/JS. The task was to build a blogsite where the content was dynamically built after fetching data from Wordpress.",
       "The index page had to include a working image carousel which showcased the latest posts. All specific blog pages had to be dynamically built and all images on the pages had to modal functionality.",
     ],
