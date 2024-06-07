@@ -53,7 +53,7 @@ const projectsData = [
     image: VilajoyhosaImage,
     alt: "Project screenshot",
     description: [
-      "Built a website to showcase an apartment for rent in Vilajoyhosa, Spain as the owner did want to list it on the larger sites and only rent out to friends and family. A small side project I did for a friend, and where I could practice Bootstrap.",
+      "Built a website to showcase an apartment for rent in Vilajoyhosa, Spain as the owner did want to list it on the larger sites and only rent out to friends and family. A small side project I did for my mum, and where I could practice Bootstrap.",
     ],
     skills: ["HTML", "CSS/Sass", "JavaScript", "Bootstrap"],
     github: "https://github.com/Miksel90/Villajoyhosa.git",
