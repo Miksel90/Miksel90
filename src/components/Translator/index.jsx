@@ -98,7 +98,7 @@ const Translator = ({ children }) => {
         },
       "Teacher Gone Developer": {
         en: "Teacher Gone Developer",
-        no: "Sluttet som lærer og utvikler",
+        no: "Sluttet som lærer og ble utvikler",
       },
       "I started my teacher`s degree at the University of Stavanger in 2011 and graduated in 2016. I studied mathematics, social studies, religion, and cooking. After completing my degree, I took an extra year to study English. While studying, I worked at the student bar, a supermarket and played and administered the university handball team. I also helped plan and host Fadderuka two times, which is a festival to welcome students to the university.":
         {
