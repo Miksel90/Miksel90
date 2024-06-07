@@ -12,11 +12,11 @@ function ContactContainer() {
         <p className="mb-4  fs-4 text-start">Mikael.selstad@gmail.com</p>
       </div>
       <div className="d-flex gap-4">
-        <a href="https://github.com/Miksel90">
+        <a href="https://github.com/Miksel90" title="GitHub Profile">
           <FaGithub
             aria-label="Github Profile"
             style={{
-              fontSize: "5rem",
+              fontSize: "4rem",
               backgroundColor: "white",
               color: "black",
               borderRadius: "50%",
@@ -24,11 +24,14 @@ function ContactContainer() {
             }}
           />
         </a>
-        <a href="https://www.linkedin.com/in/mikael-selstad-921251279">
+        <a
+          href="https://www.linkedin.com/in/mikael-selstad-921251279"
+          title="LinkedIn Profile"
+        >
           <TiSocialLinkedinCircular
             aria-label="LinkedIn Profile"
             style={{
-              fontSize: "5rem",
+              fontSize: "4rem",
               backgroundColor: "white",
               color: "black",
               borderRadius: "50%",

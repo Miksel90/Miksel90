@@ -29,7 +29,7 @@ function HomePage() {
       </Helmet>
       <div className="container p-5 bg-black bg-opacity-10 h-100">
         <div className="row ">
-          <div className="col-md-12 mb-1 d-flex flex-column flex-md-row align-items-center justify-content-evenly">
+          <div className="col-md-12 mb-1 d-flex flex-column flex-md-row align-items-center justify-content-evenly gap-4">
             <div className=" mb-3">
               <Image
                 src={profileImage}
@@ -67,7 +67,7 @@ function HomePage() {
         <div>
           <div className=" container-fluid d-flex justify-content-start flex-wrap m-auto">
             <div className="row">
-              <p className="shadowText text-white fs-2 text-start mt-5">
+              <p className="shadowText text-white fs-2 text-start mt-5 m-0">
                 {translate("Languages")}
               </p>
               <div className=" d-flex justify-content-around">
@@ -77,7 +77,7 @@ function HomePage() {
               </div>
             </div>
             <div className="row">
-              <p className="shadowText text-white fs-2 text-start">
+              <p className="shadowText text-white fs-2 text-start m-0">
                 {translate("Skills")}
               </p>
               <div className=" d-flex justify-content-around">

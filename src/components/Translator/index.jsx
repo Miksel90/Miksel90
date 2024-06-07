@@ -1,12 +1,9 @@
-// Translator.js
 import { createContext, useState, useContext } from "react";
 
-// Create a context for the Translator
 const TranslatorContext = createContext();
 
-// Translator Provider component
 const Translator = ({ children }) => {
-  const [language, setLanguage] = useState("en"); // Default language is English
+  const [language, setLanguage] = useState("en");
 
   const translate = (text) => {
     const translations = {
@@ -180,7 +177,6 @@ const Translator = ({ children }) => {
   );
 };
 
-// Custom hook to use the Translator context
 export const useTranslator = () => useContext(TranslatorContext);
 
 export default Translator;
