@@ -8,7 +8,7 @@ import { useTranslator } from "../Translator/index.jsx";
 function ThisIsMeTab() {
   const { translate } = useTranslator();
   return (
-    <div className="container text-white shadowText text-start fs-4 bg-dark bg-opacity-25 p-3">
+    <div className="container text-white shadowText text-start fs-4 bg-dark bg-opacity-50 p-3">
       <h1 className="align-items-center text-center p-1 mt-3">
         {translate("Love to win, hate to lose, but a good sport")}
       </h1>

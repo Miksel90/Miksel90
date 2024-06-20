@@ -11,7 +11,7 @@ function ProjectsPage() {
       <Helmet>
         <title>Projects | Mikael Selstad</title>
       </Helmet>
-      <div className="bg-black bg-opacity-10">
+      <div className="bg-black bg-opacity-50">
         <h1 className="text-white shadowText p-1 text-center">
           {translate("Projects")}
         </h1>

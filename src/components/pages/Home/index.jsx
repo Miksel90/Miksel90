@@ -27,7 +27,7 @@ function HomePage() {
       <Helmet>
         <title>Home | Mikael Selstad</title>
       </Helmet>
-      <div className="container p-5 bg-black bg-opacity-10 h-100">
+      <div className="container p-5 bg-black bg-opacity-50 h-100">
         <div className="row ">
           <div className="col-md-12 mb-1 d-flex flex-column flex-md-row align-items-center justify-content-evenly gap-4">
             <div className=" mb-3">

@@ -7,7 +7,7 @@ import { useTranslator } from "../Translator/index.jsx";
 function CareerTab() {
   const { translate } = useTranslator();
   return (
-    <div className="container text-white shadowText text-start fs-4 bg-dark bg-opacity-25 p-3">
+    <div className="container text-white shadowText text-start fs-4 bg-dark bg-opacity-50 p-3">
       <h1 className="align-items-center text-center p-1 mt-3">
         {translate("Teacher Gone Developer")}
       </h1>
@@ -15,7 +15,7 @@ function CareerTab() {
         <div className="col-md-9">
           <FadeInText>
             {translate(
-              "I started my teacher`s degree at the University of Stavanger in 2011 and graduated in 2016. I studied mathematics, social studies, religion, and cooking. After completing my degree, I took an extra year to study English. While studying, I worked at the student bar, a supermarket and played and administered the university handball team. I also helped plan and host Fadderuka two times, which is a festival to welcome students to the university."
+              "I started my teacher`s degree at the University of Stavanger in 2011 and graduated in 2016. I studied mathematics, history, religion, and cooking. After completing my degree, I took an extra year to study English. While studying, I worked at the student bar, a supermarket and played and administered the university handball team. I also helped plan and host Fadderuka two times, which is a festival to welcome students to the university."
             )}
           </FadeInText>
           <FadeInText className="mt-4">
