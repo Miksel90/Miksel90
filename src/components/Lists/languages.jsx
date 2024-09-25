@@ -34,6 +34,10 @@ function LanguageList() {
       <li className={styles.listItem}>Bootstrap</li>
       <li className={styles.listItem}>Tailwind-CSS</li>
       <li className={styles.listItem}>React</li>
+      <li className={styles.listItem}>Angular</li>
+      <li className={styles.listItem}>Typescript</li>
+      <li className={styles.listItem}>Node.js</li>
+      <li className={styles.listItem}>Git</li>
       <li className={styles.listItem}>Cypress</li>
       <li className={styles.listItem}>Jest</li>
     </ul>
