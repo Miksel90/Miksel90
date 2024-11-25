@@ -5,8 +5,20 @@ import futurumImage from "../images/Projects/Futurum.webp";
 import bogeysImage from "../images/Projects/Bogeys.webp";
 import HolidazeImage from "../images/Projects/Holidaze.webp";
 import VilajoyhosaImage from "../images/Projects/vilajoyhosa.webp";
+import IssasImage from "../images/Projects/Issas.webp";
 
 const projectsData = [
+  {
+    title: "ISSAS GULV",
+    image: IssasImage,
+    alt: "ISSAS project screenshot",
+    description: [
+      "A website for a local flooring company. The site is built with Typescript, React and Tailwind CSS. The site is responsive and has a contact form that sends an email to the owner. The site is hosted on Netlify and the contact form is using Netlify forms. The site is built with a mobile first approach. It is a soft launch and the site is not 100% finished as its the the first page i also set up hosting for with Domeneshop and some of the redirects are not optimal.",
+    ],
+    skills: ["React", "Tailwind CSS", "Typescript", "Responsive", "WCAG"],
+    github: "https://github.com/Miksel90/Issas.git",
+    website: "https://www.issas.no/",
+  },
   {
     title: "Holidaze",
     image: HolidazeImage,
